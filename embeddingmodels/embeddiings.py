@@ -15,5 +15,7 @@ texts = [
 ]
 
 vector = embeddings.embed_documents(texts)
+# vector = embeddings.embed_query("Hello this is Daivat Dhimmar")
+# Documents for large size document and query for embedding query 
 
 print(vector)
