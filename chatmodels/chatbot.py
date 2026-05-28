@@ -39,3 +39,53 @@ while True:
     print("Bot :",response.content)
 
 print(messages)
+
+""" +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ """
+# from dotenv import load_dotenv
+# load_dotenv()
+
+# from langchain_mistralai import ChatMistralAI
+# from langchain_core.messages import AIMessage, SystemMessage, HumanMessage
+
+# model = ChatMistralAI(model = 'mistral-small-2506',temperature=0.7)
+
+# message = [
+#     SystemMessage(content="You are an funny  AI Agent.")
+# ]
+
+# print("----------------- welcom type 0 to exit the application-----------------")
+# while True:
+
+#     prompt = input("you : ")
+#     if prompt == "0":
+#         break
+#     message.append(HumanMessage(content=prompt))
+#     response = model.invoke(message)
+#     message.append(AIMessage(content=response.content))
+#     print("Bot :",response.content)
+
+""" +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ """
+# from langchain_core.runnables import history
+# from dotenv import load_dotenv
+# load_dotenv()
+
+# from langchain_mistralai import ChatMistralAI
+
+# model = ChatMistralAI(model = "mistral-small-2506",temprature = 0.7)
+
+# history = [
+
+# ]
+
+# print("----------------- welcom type 0 to exit the application-----------------")
+
+# while True:
+#     prompt = input("you:")
+#     if prompt == "0":
+#         break
+#     history.append(prompt)
+#     response = model.invoke(prompt)
+#     history.append(response.content)
+#     print("Bot:", response.content)
+#     print(history)
+    
